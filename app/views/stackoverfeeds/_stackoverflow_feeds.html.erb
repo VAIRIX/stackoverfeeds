@@ -1,0 +1,9 @@
+<div id='stackoverflow_feeds' class="news public_news">
+  <% @entries.each do |entry| %>
+    <div class="alert issues_comment">
+      <div class="body">
+        <%= entry.summary.html_safe unless entry.summary.blank?%>
+      </div>
+    </div>
+  <% end %>
+</div>

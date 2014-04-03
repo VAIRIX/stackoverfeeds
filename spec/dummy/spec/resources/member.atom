@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">User VAIRIX - Stack Overflow</title>
+    <link rel="self" href="http://stackoverflow.com/feeds/user/3470100" type="application/atom+xml" />
+    <link rel="alternate" href="http://stackoverflow.com/users/3470100" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2014-04-02T17:00:30Z</updated>
+    <id>http://stackoverflow.com/feeds/user/3470100</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license>
+
+    <entry>
+        <id>http://stackoverflow.com/questions/22795691/-/22797446#22797446</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for Joining a table and a filtered table in ActiveRecord</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22795691/joining-a-table-and-a-filtered-table-in-activerecord/22797446#22797446" />
+        <published>2014-04-01T21:41:35Z</published>
+        <updated>2014-04-01T21:41:35Z</updated>
+        <summary type="html">&lt;p&gt;You can do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Song.joins(:albums).where(&#39;albums.released_on &amp;gt;= ?&#39;, from).where(&#39;albums.rating &amp;gt; ?&#39;, rating).where(&#39;albums.genre = ?&#39;, genres)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It makes only one query.&lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22796203/in-rails-4-using-ajax-how-do-i-update-a-particular-div-on-success/22796990#22796990</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for In Rails 4 using AJAX, how do I update a particular div on success?</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22796203/in-rails-4-using-ajax-how-do-i-update-a-particular-div-on-success/22796990#22796990" />
+        <published>2014-04-01T21:13:17Z</published>
+        <updated>2014-04-01T21:13:17Z</updated>
+        <summary type="html">&lt;p&gt;This should work for you:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;html = render_to_string(partial: &#39;images&#39;, locals: {user: user})
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22761911/-/22762973#22762973</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for How to implement root route and get &quot;index&quot; to the same page</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22761911/how-to-implement-root-route-and-get-index-to-the-same-page/22762973#22762973" />
+        <published>2014-03-31T13:34:39Z</published>
+        <updated>2014-03-31T13:34:39Z</updated>
+        <summary type="html">&lt;p&gt;A possible solution that implies more than one line, is using scope to make it cleaner, you will have two extra lines of code, but I found it more readable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;scope :path =&amp;gt; &#39;/&#39;, :controller =&amp;gt; :static_pages do
+  get &#39;index&#39; =&amp;gt; :index, :as =&amp;gt; &#39;index&#39;
+  get &#39;home&#39; =&amp;gt; :index, :as =&amp;gt; &#39;home&#39;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That way you make explicit which controller to use for all routes + the path (first part of it).&lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22762135/-/22762326#22762326</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for I don&#39;t really know what RSPEC assigns do, and my tests are failing</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22762135/i-dont-really-know-what-rspec-assigns-do-and-my-tests-are-failing/22762326#22762326" />
+        <published>2014-03-31T13:05:05Z</published>
+        <updated>2014-03-31T13:05:05Z</updated>
+        <summary type="html">&lt;p&gt;What you should expect from the assign after calling your controller, is to have the value that the controller sets to the instance variable. You could see it like using @category. So the category created with FactoryGirl is not equals to the one created by your controller (in this case seems your action is returning nil value in your instance variable)&lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22720472/-/22720669#22720669</id>
+        <re:rank scheme="http://stackoverflow.com">1</re:rank>
+        <title type="text">Answer by VAIRIX for Select objects based on grandchild attribute with joins in ActiveRecord</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22720472/select-objects-based-on-grandchild-attribute-with-joins-in-activerecord/22720669#22720669" />
+        <published>2014-03-28T18:35:10Z</published>
+        <updated>2014-03-28T18:35:10Z</updated>
+        <summary type="html">&lt;p&gt;This should be work!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Foo.joins(:bazs).where(bazs: {name: &#39;x&#39;})
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22717251/-/22717807#22717807</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for How can I display png data as an image inside in the browser?</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22717251/how-can-i-display-png-data-as-an-image-inside-in-the-browser/22717807#22717807" />
+        <published>2014-03-28T16:04:58Z</published>
+        <updated>2014-03-28T16:04:58Z</updated>
+        <summary type="html">&lt;p&gt;One way to do this, is by doing the following:
+In the view&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&quot;/get_img/tlotr&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That will make a request to the server, so in the routes.rb add&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;get &#39;/get_img/:filename&#39; =&amp;gt; &#39;test#img&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In my case I have a TestController with an action call img like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def img
+  send_file( &quot;/your_path/#{params[:filename]}.png&quot;,
+    :disposition =&amp;gt; &#39;inline&#39;,
+    :type =&amp;gt; &#39;image/png&#39;,
+    :x_sendfile =&amp;gt; true )
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this solution you hit the server one more time, but you don&#39;t have to send the data using the read method.&lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22716263/-/22716782#22716782</id>
+        <re:rank scheme="http://stackoverflow.com">0</re:rank>
+        <title type="text">Answer by VAIRIX for Use form to send ajax request to rails app</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22716263/use-form-to-send-ajax-request-to-rails-app/22716782#22716782" />
+        <published>2014-03-28T15:20:09Z</published>
+        <updated>2014-03-28T15:20:09Z</updated>
+        <summary type="html">&lt;p&gt;You can do something like that:&lt;/p&gt;
+
+&lt;p&gt;In your javascript file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(&#39;#my_button&#39;).click(function(){
+  $.ajax({
+    type:&#39;GET&#39;,
+    url: &#39;/table&#39;,
+    data:{ rows: $(&#39;#my_text_field&#39;).val() },
+    success: function(data){
+      $(&#39;#my_table_container&#39;).html(data);
+    }
+  });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In your controller:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def table
+  render partial: &#39;table&#39;, locals: { rows: params[:rows] }
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In your routes.rb:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;match &#39;table&#39; =&amp;gt; &#39;your_controller#table&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then in your partial (_partial.html.rb), you have to iterate over number of rows that you receive in the rows param. &lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22715588/-/22716096#22716096</id>
+        <re:rank scheme="http://stackoverflow.com">2</re:rank>
+        <title type="text">Answer by VAIRIX for Helper for controller and views</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22715588/helper-for-controller-and-views/22716096#22716096" />
+        <published>2014-03-28T14:48:22Z</published>
+        <updated>2014-03-28T14:48:22Z</updated>
+        <summary type="html">&lt;p&gt;Define it in the ApplicationController like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class ApplicationController &amp;lt; ActionController::Base
+
+  helper_method :paypal_url
+
+  def paypal_url
+    &#39;https://www.paypal.com/cgi-bin/webscr&#39;
+  end
+
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that you&#39;ll be able to use the helper method from any view or controller.&lt;/p&gt;
+</summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com/questions/22761911/how-to-implement-root-route-and-get-index-to-the-same-page/22762973?cid=34709045#22762973</id>
+        <title type="text">Comment by VAIRIX on How to implement root route and get &quot;index&quot; to the same page</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22761911/how-to-implement-root-route-and-get-index-to-the-same-page/22762973#22762973" />
+        <published>2014-03-31T16:45:30Z</published>
+        <updated>2014-03-31T16:45:30Z</updated>
+        <summary type="html">You can add &lt;code&gt;root to: &amp;#39;static_pages#index&amp;#39;&lt;/code&gt; inside or outside your scope. It&amp;#39;s a possible solution and maybe doesn&amp;#39;t fit what you expect, cause it takes more code to solve the problem.</summary>
+    </entry>
+
+    <entry>
+        <id>http://stackoverflow.com/questions/22759923/how-to-let-the-user-create-cron-jobs-in-rails?cid=34699568</id>
+        <title type="text">Comment by VAIRIX on How to let the user create cron jobs in rails?</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22759923/how-to-let-the-user-create-cron-jobs-in-rails" />
+        <published>2014-03-31T12:58:30Z</published>
+        <updated>2014-03-31T12:58:30Z</updated>
+        <summary type="html">If you want to schedule a task every X period of time, and your user only sets when and the task (as you said), you could try doing it with delayedjob ` class.delay(run_at: 5.hours.from_now).method(param)` and call recursive in the method. Of course you will have some delay of excecution (even if the first thing in your method is calling the recursion). It should be some similar way to do it with Sidekiq (really don&amp;#39;t know). Be careful with overlapping of tasks.</summary>
+    </entry>
+
+    <entry>
+        <id>http://stackoverflow.com/questions/22716263/use-form-to-send-ajax-request-to-rails-app/22716782?cid=34623992#22716782</id>
+        <title type="text">Comment by VAIRIX on Use form to send ajax request to rails app</title>
+        <author>
+            <name>VAIRIX</name>
+            <uri>http://stackoverflow.com/users/3470100</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com/questions/22716263/use-form-to-send-ajax-request-to-rails-app/22716782#22716782" />
+        <published>2014-03-28T17:57:47Z</published>
+        <updated>2014-03-28T17:57:47Z</updated>
+        <summary type="html">If you need more params from the view, just add them in the &amp;quot;data ajax attribute&amp;quot; like &lt;code&gt;data:{ rows: val1, sort: val2 }&lt;/code&gt;</summary>
+    </entry>
+</feed>
