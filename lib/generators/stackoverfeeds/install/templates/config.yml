@@ -1,0 +1,4 @@
+user_number: '3470100'
+
+#Set the default number of feeds to retrieve (if no amount set by paameter)
+feeds_number: '10'
