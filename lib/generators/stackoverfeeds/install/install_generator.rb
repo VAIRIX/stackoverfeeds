@@ -40,6 +40,10 @@ module Stackoverfeeds
         copy_file 'feeds.js', 'app/assets/javascripts/stackoverfeeds/feeds.js'
       end
 
+      def add_images
+        copy_file 'sprites.png', 'app/assets/images/stackoverfeeds/sprites.png'
+      end
+
       def add_config
         unless File.read('config/application.rb').match(/stackoverfeeds\/config.yml/)
           conf_manifest = 'config/stackoverfeeds/config.yml'

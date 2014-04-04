@@ -1,9 +1,16 @@
-<div id='stackoverflow_feeds' class="news public_news">
-  <% @entries.each do |entry| %>
-    <div class="alert issues_comment">
-      <div class="body">
-        <%= entry.summary.html_safe unless entry.summary.blank?%>
-      </div>
-    </div>
-  <% end %>
+<div id='stackoverflow_feeds' class='user-tab-content'>
+  <table class='history-table'>
+    <tbody>
+      <% @entries.each do |entry| %>
+        <tr>
+          <td id='enable-load-body-<%= entry.entry_id.split('#').last %>' class='async-load load-prepped'>
+            <a class='load-body expander-arrow-small-hide'></a>
+            <b><%= link_to entry.title, entry.entry_id, class: 'answer-hyperlink timeline-answers' %></b>
+            </br>
+            <span class='comments' style='display: none;'><%= entry.summary.html_safe unless entry.summary.blank? %></span>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>

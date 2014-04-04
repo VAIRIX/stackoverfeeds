@@ -1,0 +1,791 @@
+#stackoverflow_feeds .user-panel .user-panel-content {
+    margin-bottom: 10px;
+}
+#stackoverflow_feeds .user-panel table {
+    width: 100%}
+#stackoverflow_feeds .user-panel table td {
+    padding: 6px 0;
+    vertical-align: middle;
+}
+#stackoverflow_feeds .user-panel .question-hyperlink, #stackoverflow_feeds .user-panel .answer-hyperlink, #stackoverflow_feeds .user-panel .site-hyperlink {
+    font-size: 110%;
+    font-weight: normal;
+    line-height: 1.3;
+    display: block;
+    max-width: 425px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#stackoverflow_feeds .user-panel .question-hyperlink, #stackoverflow_feeds .user-panel .answer-hyperlink {
+    width: 425px;
+}
+#stackoverflow_feeds .user-panel .user-tags td, #stackoverflow_feeds .user-panel .user-badges td {
+    padding: 3px;
+}
+#stackoverflow_feeds .user-panel .user-tags td .badge, #stackoverflow_feeds .user-panel .user-badges td .badge {
+    margin: 0 3px 3px 0;
+}
+#stackoverflow_feeds .user-panel .user-tags td .badge-tag, #stackoverflow_feeds .user-panel .user-badges td .badge-tag {
+    margin: 0 3px 1px 0;
+}
+#stackoverflow_feeds .user-panel .votes-cast-stats {
+    margin-left: 10px;
+    width: auto;
+}
+#stackoverflow_feeds .user-panel .votes-cast-stats td.desc {
+    padding-left: 6px;
+}
+#stackoverflow_feeds .user-panel .votes-cast-stats tr {
+    border-top: none;
+}
+#stackoverflow_feeds .user-panel #leagueRank a {
+    color: #07c;
+    float: right;
+    padding-top: 15px;
+}
+#stackoverflow_feeds .user-panel .favicon {
+    height: 16px;
+}
+#stackoverflow_feeds .user-panel-mod-info {
+    background-color: #fff7e5;
+    border: solid 1px #ffefc6;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+#stackoverflow_feeds .user-panel-mod-info table {
+    margin-bottom: 0;
+}
+#stackoverflow_feeds .user-panel-mod-info table tr {
+    border-top: none !important;
+}
+#stackoverflow_feeds .user-panel-mod-info table td {
+    padding: 3px 8px 3px 3px;
+    vertical-align: middle;
+}
+#stackoverflow_feeds .user-panel-mod-info table td.spacer {
+    width: 20px;
+}
+#stackoverflow_feeds .user-panel-mod-info .mod-label {
+    color: #999;
+}
+#stackoverflow_feeds .user-panel-mod-info .mod-label.extra-padding {
+    padding-left: 30px;
+}
+#stackoverflow_feeds .user-panel-mod-info .ip-address-lookup {
+    font-weight: bold;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info .detail-info, #stackoverflow_feeds .user-panel-mod-info .detail-info, #stackoverflow_feeds .user-tab .subheader .blocked-info .blocked-no, #stackoverflow_feeds .user-panel-mod-info .blocked-no {
+    color: #888;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info a, #stackoverflow_feeds .user-panel-mod-info a {
+    color: #07c;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info a:visited, #stackoverflow_feeds .user-panel-mod-info a:visited {
+    color: #07c;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info a.user-moderator-link, #stackoverflow_feeds .user-panel-mod-info a.user-moderator-link {
+    font-weight: bold;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info .blocked-yes, #stackoverflow_feeds .user-panel-mod-info .blocked-yes {
+    font-weight: bold;
+    color: #800000;
+}
+#stackoverflow_feeds .user-tab .subheader .blocked-info {
+    font-size: 12px;
+}
+#stackoverflow_feeds .user-panel-left {
+    margin-right: 30px;
+}
+#stackoverflow_feeds .user-tab .subheader {
+    border-bottom: 0;
+}
+#stackoverflow_feeds .user-tab .subheader .subtabs {
+    float: none;
+    padding-top: 5px;
+    width: auto;
+}
+#stackoverflow_feeds .user-tab .subheader .count {
+    font-weight: normal;
+    color: #808080;
+}
+#stackoverflow_feeds .user-questions .question-summary {
+    width: 900px;
+}
+#stackoverflow_feeds .user-rep .rep-amount {
+    padding-right: 10px;
+    min-width: 20px;
+}
+#stackoverflow_feeds .user-rep .rep-up {
+    color: #008000;
+}
+#stackoverflow_feeds .user-rep .rep-down {
+    color: #f00;
+}
+#stackoverflow_feeds .user-rep .special-rep {
+    background-color: #008000;
+    color: #fff;
+    padding: 1px 3px;
+    margin-right: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 1px;
+    font-size: 11px;
+}
+#stackoverflow_feeds .user-rep-chart-summary {
+    width: 465px;
+    height: 35px;
+    font-size: 0;
+    border-bottom: 1px solid #ddd;
+}
+#stackoverflow_feeds .user-rep-chart-summary .user-rep-chart-summary-tooltip {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 13px;
+    margin-right: 2.5px;
+}
+#stackoverflow_feeds .user-rep-chart-summary .user-rep-chart-summary-tooltip:last-child {
+    margin-right: 0;
+}
+#stackoverflow_feeds .user-rep-chart-summary .user-rep-chart-summary-tooltip:hover {
+    background-color: #eee;
+}
+#stackoverflow_feeds .user-rep-chart-summary .user-rep-chart-summary-bar {
+    position: absolute;
+    width: 13px;
+    background-color: #acc99d;
+    bottom: 0;
+}
+#stackoverflow_feeds #tabs a {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#stackoverflow_feeds .bounty-indicator-tab {
+    margin-right: 0;
+}
+#stackoverflow_feeds .user-rep-full .no-rep-results {
+    text-align: center;
+    padding-top: 10px;
+}
+#stackoverflow_feeds .user-rep-full #stats {
+    margin: 10px 0;
+}
+#stackoverflow_feeds .user-rep-full .rep-table {
+    width: 100%}
+#stackoverflow_feeds .user-rep-full .rep-table-row>td {
+    border-bottom: dotted 1px #f0f0f0;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+#stackoverflow_feeds .user-rep-full .tbl-reputation {
+    width: 100%}
+#stackoverflow_feeds .user-rep-full #stats .bounty-indicator-tab {
+    margin-right: 0;
+}
+#stackoverflow_feeds .user-rep-full #stats .accept-indicator-tab {
+    background-color: #008000;
+}
+#stackoverflow_feeds .user-rep-full #stats .accept-indicator-tab-deleted {
+    background-color: #800000;
+}
+#stackoverflow_feeds .user-rep-full .rep-cell {
+    font-weight: bold;
+    padding: 2px;
+    white-space: nowrap;
+    width: 50px;
+    text-align: right;
+    font-size: 140%}
+#stackoverflow_feeds .user-rep-full .rep-left {
+    padding: 2px;
+    white-space: nowrap;
+    width: 50px;
+    text-align: right;
+}
+#stackoverflow_feeds .user-rep-full .rep-big {
+    font-weight: bold;
+    font-size: 110%}
+#stackoverflow_feeds .user-rep-full .rep-up {
+    color: #008000;
+}
+#stackoverflow_feeds .user-rep-full .rep-sep {
+    color: #444;
+    font-weight: normal;
+}
+#stackoverflow_feeds .user-rep-full .rep-down {
+    color: #800000;
+}
+#stackoverflow_feeds .user-rep-full .rep-neutral {
+    color: #444;
+}
+#stackoverflow_feeds .user-rep-full .rep-time {
+    width: 80px;
+    padding-left: 15px;
+}
+#stackoverflow_feeds .user-rep-full .rep-link a, #stackoverflow_feeds .user-rep-full .rep-link a.question-hyperlink, #stackoverflow_feeds .user-rep-full .rep-link a.answer-hyperlink {
+    font-size: 100%;
+    line-height: 1;
+}
+#stackoverflow_feeds .user-rep-full .rep-info, #stackoverflow_feeds .user-rep-full .rep-desc {
+    color: #666;
+}
+#stackoverflow_feeds .user-rep-full .rep-desc {
+    padding-right: 10px;
+    width: 70px;
+}
+#stackoverflow_feeds .user-rep-full .rep-day {
+    color: #666;
+}
+#stackoverflow_feeds .user-rep-full .rep-none {
+    color: #999;
+}
+#stackoverflow_feeds .user-rep-full .rep-footnote {
+    padding: 10px 0 5px 0;
+    color: #888;
+    text-align: center;
+}
+#stackoverflow_feeds .user-rep-full .rep-table .loaded-body {
+    background: #fcfcfc;
+    background: rgba(1, 1, 1, 0.02);
+}
+#stackoverflow_feeds .user-rep-full .rep-breakdown {
+    padding: 6px 0;
+}
+#stackoverflow_feeds .user-rep-full .rep-breakdown-row>td {
+    padding-bottom: 6px;
+}
+#stackoverflow_feeds .user-rep-full .rep-recent-row {
+    background-color: #ffd;
+}
+#stackoverflow_feeds .user-rep-full .expandable-row {
+    cursor: pointer;
+}
+#stackoverflow_feeds .user-rep-full .timeline-date, #stackoverflow_feeds .user-rep-full .rep-time {
+    padding-right: 5px;
+    color: #bbb;
+}
+#stackoverflow_feeds .user-rep-full .timeline-date {
+    display: inline-block;
+    min-width: 85px;
+}
+#stackoverflow_feeds .user-rep-full .rep-no-changes {
+    text-align: center;
+    color: #888;
+}
+#stackoverflow_feeds .user-tags, #stackoverflow_feeds .user-badges {
+    width: 100%}
+#stackoverflow_feeds .user-tags .answer-votes, #stackoverflow_feeds .user-badges .answer-votes {
+    margin-right: 5px;
+    width: 25px;
+    margin-top: 2px;
+}
+#stackoverflow_feeds .user-page-content {
+    padding-top: 5px;
+}
+#stackoverflow_feeds #user-info-container {
+    margin-bottom: 10px;
+}
+#stackoverflow_feeds .answer-summary {
+    padding: 5px 0;
+    float: left;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%}
+#stackoverflow_feeds .answer-link {
+    padding: 7px 10px 4px 10px;
+    margin-top: 0;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container {
+    border-bottom: 1px solid #f0f0f0;
+    overflow: auto;
+    clear: both;
+    padding: 15px;
+    text-align: left;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-icon {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-icon img {
+    width: 48px;
+    height: 48px;
+    display: block;
+    -ms-interpolation-mode: bicubic;
+    image-rendering: optimizeQuality;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-site {
+    float: left;
+    width: 401px;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-site h2 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    margin-top: 0 !important;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-site p {
+    margin-bottom: 2px;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-stat {
+    float: left;
+    margin-left: 15px;
+    font-size: 11px;
+    text-align: center;
+    width: 80px;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-stat .account-number {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-stat .account-number, #stackoverflow_feeds #user-tab-accounts .account-container .account-stat .account-badges {
+    height: 20px;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-stat .account-badges .badgecount {
+    font-size: 15px;
+    font-weight: bold;
+}
+#stackoverflow_feeds #user-tab-accounts .account-container .account-stat.account-stat-wide {
+    width: 138px;
+}
+#stackoverflow_feeds .history-table {
+    margin-bottom: 10px;
+    line-height: 125%}
+#stackoverflow_feeds .history-table span.revision-comment {
+    line-height: 180%}
+#stackoverflow_feeds .history-table .comments {
+    border-top: none;
+}
+#stackoverflow_feeds .history-table td {
+    padding: 0 5px 5px 0;
+}
+#stackoverflow_feeds .history-table p {
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+#stackoverflow_feeds .history-table .date_brick {
+    margin-left: 0;
+    float: left;
+}
+#stackoverflow_feeds .history-table td {
+    padding: 5px;
+    vertical-align: middle;
+}
+#stackoverflow_feeds .history-table>tbody>tr {
+    border-top: 1px solid #f0f0f0;
+}
+#stackoverflow_feeds .history-table>tbody>tr:first-child {
+    border-top: none;
+}
+#stackoverflow_feeds .history-table>tbody>tr>td:last-child {
+    width: 100%}
+#stackoverflow_feeds .history-table .loaded-body {
+    border-top: none;
+}
+#stackoverflow_feeds .history-table .loaded-body td:last-child {
+    width: auto;
+}
+#stackoverflow_feeds .history-table .date {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 45px;
+}
+#stackoverflow_feeds .history-table .reviewed-action {
+    background-color: #eee;
+    font-weight: bold;
+    padding: 2px;
+}
+#stackoverflow_feeds .no-content {
+    padding-top: 25px;
+    color: #999;
+    text-align: center;
+}
+#stackoverflow_feeds .user-tab-content .user-tags td, #stackoverflow_feeds .user-tab-content .user-badges td {
+    padding: 3px 0;
+}
+#stackoverflow_feeds .question-summary {
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+#stackoverflow_feeds .count-cell, #stackoverflow_feeds .icon-cell {
+    width: 30px;
+}
+#stackoverflow_feeds .user-answers {
+    overflow: auto;
+}
+#stackoverflow_feeds #small-user-info .logo {
+    float: left;
+}
+#stackoverflow_feeds .subheader {
+    margin-bottom: 10px;
+}
+#stackoverflow_feeds .empty {
+    margin-bottom: 10px;
+}
+#stackoverflow_feeds .user-tab-content .question-summary {
+    width: auto;
+    float: none;
+}
+#stackoverflow_feeds .user-tab-content .question-summary .cp {
+    float: left;
+}
+#stackoverflow_feeds .user-tab-content .question-summary .favorites-count, #stackoverflow_feeds .user-tab-content .question-summary .favorites-count-off {
+    margin-top: 0;
+}
+#stackoverflow_feeds .user-tab-content .question-summary .summary {
+    float: none;
+    width: auto;
+    padding-left: 200px;
+}
+#stackoverflow_feeds .user-tab-content .question-summary .bounty-comment {
+    margin-right: 4px;
+    float: left;
+    line-height: 1;
+}
+#stackoverflow_feeds .user-tab-content .question-summary .bounty-comment .relativetime {
+    font-weight: normal;
+}
+#stackoverflow_feeds .highlight-row {
+    background-color: #ffd;
+}
+#stackoverflow_feeds #user-tab-questions .star-off {
+    cursor: default;
+}
+#stackoverflow_feeds .expander-arrow-hide, .expander-arrow-show {
+    display: inline-block;
+    width: 27px;
+    height: 21px;
+    background-position: 5px -870px;
+}
+#stackoverflow_feeds .expander-arrow-show {
+    background-position: 5px -905px;
+}
+#stackoverflow_feeds .expander-arrow-small-hide, .expander-arrow-small-show {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-position: 0 -935px;
+}
+#stackoverflow_feeds .expander-arrow-small-show {
+    background-position: 0 -960px;
+}
+#stackoverflow_feeds .answer-hyperlink {
+    color: #555 !important;
+    font-weight: bold;
+}
+#stackoverflow_feeds .question-hyperlink {
+    font-weight: bold;
+}
+#stackoverflow_feeds .answer-link {
+    float: left;
+    width: 700px;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #555;
+}
+#stackoverflow_feeds .answer-link a {
+    font-weight: bold;
+}
+#stackoverflow_feeds .answer-summary {
+    padding: 3px;
+    clear: both;
+}
+#stackoverflow_feeds .user-details td {
+    color: #000;
+    padding: 4px 0 4px 0;
+}
+#stackoverflow_feeds #hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+    background-image: url('../stackoverfeeds/sprites.png?v=f936a8b3d6ea');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#stackoverflow_feeds html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#stackoverflow_feeds body {
+    line-height: 1;
+}
+#stackoverflow_feeds ol, ul {
+    list-style: none;
+}
+#stackoverflow_feeds blockquote, q {
+    quotes: none;
+}
+#stackoverflow_feeds blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+#stackoverflow_feeds ins {
+    text-decoration: none;
+}
+#stackoverflow_feeds del {
+    text-decoration: line-through;
+}
+#stackoverflow_feeds table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#stackoverflow_feeds body {
+    background: #fff;
+    color: #000;
+    font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif;
+    font-size: 80%;
+    text-align: center;
+}
+#stackoverflow_feeds code {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    background-color: #eee;
+}
+#stackoverflow_feeds textarea {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    border: 1px solid #999;
+    font-size: 90%
+}
+#stackoverflow_feeds input, select, button, .button, a.button:link, a.button:visited {
+    border: 1px solid #999;
+    font-size: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#stackoverflow_feeds input {
+    margin: 5px 0 5px 0;
+    padding: 3px;
+}
+#stackoverflow_feeds input[type="button"], input[type="submit"], .button, a.button:link, a.button:visited {
+    padding: .3em .6em;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #000 !important;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#stackoverflow_feeds pre {
+    padding: 5px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    margin-bottom: 10px;
+    background-color: #eee;
+    overflow: auto;
+    width: auto;
+    width: 650px !ie7;
+    padding-bottom: 20px !ie7;
+    max-height: 600px;
+}
+#stackoverflow_feeds pre {
+    max-height: none\9;
+}
+#stackoverflow_feeds blockquote {
+    margin-bottom: 10px;
+    padding: 10px 10px 1px 10px;
+    background-color: #eee;
+}
+#stackoverflow_feeds b, strong {
+    font-weight: bold;
+}
+#stackoverflow_feeds i, em {
+    font-style: italic;
+}
+#stackoverflow_feeds ul {
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 1em;
+}
+#stackoverflow_feeds ol ul, ul ol, ul ul, ol ol {
+    margin-bottom: 0;
+}
+#stackoverflow_feeds p {
+    clear: both;
+    margin-bottom: 1em;
+}
+#stackoverflow_feeds ol {
+    list-style: decimal;
+    margin-left: 30px;
+    margin-bottom: 1em;
+}
+#stackoverflow_feeds a {
+    color: #07c;
+    text-decoration: none;
+    cursor: pointer;
+}
+#stackoverflow_feeds a:hover {
+    text-decoration: underline;
+}
+#stackoverflow_feeds a:visited {
+    color: #4a6b82;
+}
+#stackoverflow_feeds h1 {
+    font-family: Trebuchet MS, Liberation Sans, DejaVu Sans, sans-serif;
+    font-weight: bold;
+    font-size: 170%;
+    margin-bottom: 7px;
+    line-height: 1.3;
+}
+#stackoverflow_feeds h2 {
+    font-family: Trebuchet MS, Liberation Sans, DejaVu Sans, sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 7px;
+    line-height: 1.3;
+}
+#stackoverflow_feeds h3 {
+    font-family: Trebuchet MS, Liberation Sans, DejaVu Sans, sans-serif;
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+#stackoverflow_feeds hr {
+    border: 0;
+    color: #aaa;
+    background-color: #aaa;
+    height: 1px;
+    margin-bottom: 20px;
+}
+#stackoverflow_feeds sup {
+    font-size: 80%;
+    position: relative;
+    top: -0.4em;
+}
+#stackoverflow_feeds sub {
+    position: relative;
+    top: .3em;
+    font-size: 80%}
+#stackoverflow_feeds kbd {
+    padding: .1em .6em;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 .1em;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+#stackoverflow_feeds input[type=checkbox], input[type=radio] {
+    border: none;
+}
+#stackoverflow_feeds p code {
+    padding: 1px 5px 1px 5px;
+}
+#stackoverflow_feeds code {
+    white-space: pre-wrap;
+}
+#stackoverflow_feeds pre code {
+    white-space: inherit;
+}
+#stackoverflow_feeds .container {
+    text-align: left;
+    width: 100%;
+    zoom: 1;
+}
+#stackoverflow_feeds .comments {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+#stackoverflow_feeds .comments {
+    width: 660px;
+    border-top: dotted 1px #aaa;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    line-height: 135%;
+    color: #444;
+}
+#stackoverflow_feeds .comments>table {
+    width: 100%
+}
+#stackoverflow_feeds .comments-link {
+    padding: 0 3px 2px 3px;
+    color: #888;
+}
+#stackoverflow_feeds a.comments-link:hover {
+    padding: 0 3px 2px 3px;
+    background-color: #777;
+    color: #fff;
+    text-decoration: none;
+}
+#stackoverflow_feeds tr.comment>td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #ddd;
+}
+#stackoverflow_feeds tr.comment:hover {
+    background-color: #fafafa;
+}
+#stackoverflow_feeds .comment img {
+    vertical-align: middle;
+}
+#stackoverflow_feeds .comment-flag, .comment-up, .comment-delete {
+    visibility: hidden;
+    cursor: pointer;
+}
+#stackoverflow_feeds .comment:hover .comment-flag, .comment:hover .comment-up, .comment:hover .comment-delete, .comment:hover .comment-edit-hide, .comment-up-on {
+    visibility: visible;
+}
+#stackoverflow_feeds .comment-actions {
+    padding-left: 3px;
+    width: 15px;
+}
+#stackoverflow_feeds .comment-score span {
+    font-size: 110%;
+    color: #666;
+    font-weight: bold;
+    padding-right: 2px;
+}
+#stackoverflow_feeds .comment-text, .comment-form {
+    vertical-align: text-top;
+    padding: 0 6px 0 7px;
+}
+#stackoverflow_feeds .comment-text .comment-edited {
+    vertical-align: top;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+#stackoverflow_feeds a.comment-user {
+    white-space: nowrap;
+    padding: 0;
+}
+#stackoverflow_feeds a.comment-user.owner {
+    padding: 2px 5px 2px 5px;
+}
+#stackoverflow_feeds .comment-date {
+    color: #999;
+}
+#stackoverflow_feeds .comment-edit-hide {
+    visibility: hidden;
+}
+#stackoverflow_feeds .comment-form>form>table {
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+#stackoverflow_feeds .comment-form>form>table td {
+    vertical-align: top;
+}
+#stackoverflow_feeds .comment-form>form input {
+    margin-left: 10px;
+    margin-top: 0;
+    display: block;
+    cursor: pointer;
+}
+#stackoverflow_feeds .comment-form .edit-comment-cancel, .comment-form .comment-help-link {
+    margin-left: 10px;
+}
+#stackoverflow_feeds .comment-form>form textarea {
+    margin-bottom: 4px;
+    height: 5em;
+    resize: vertical;
+}
