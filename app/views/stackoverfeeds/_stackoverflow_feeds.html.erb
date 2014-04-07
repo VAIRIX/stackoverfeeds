@@ -1,4 +1,9 @@
 <div id='stackoverflow_feeds' class='user-tab-content'>
+  <% if ENV['theme'] -%>
+    <a href='http://stackoverflow.com/users/<%= ENV['user_number'] %>/<%= ENV['user_name'] %>' target= '_blank'>
+      <img src='http://stackoverflow.com/users/flair/<%= ENV['user_number'] %>.png?theme=<%= ENV['theme'] %>' width='208' height='58' >
+    </a>
+  <% end -%>
   <table class='history-table'>
     <tbody>
       <% @entries.each do |entry| %>
