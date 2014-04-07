@@ -3,11 +3,11 @@
     <tbody>
       <% @entries.each do |entry| %>
         <tr>
-          <td id='enable-load-body-<%= entry.entry_id.split('#').last %>' class='async-load load-prepped'>
+          <td id='enable-load-body-<%= entry.id %>' class='async-load load-prepped'>
             <a class='load-body expander-arrow-small-hide'></a>
             <b><%= link_to entry.title, entry.entry_id, class: 'answer-hyperlink timeline-answers' %></b>
             </br>
-            <span class='comments' style='display: none;'><%= entry.summary.html_safe unless entry.summary.blank? %></span>
+            <span class='comments' style='display: none;'></span>
           </td>
         </tr>
       <% end %>
