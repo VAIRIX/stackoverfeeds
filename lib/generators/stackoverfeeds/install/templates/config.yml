@@ -1,8 +1,14 @@
+#Set your user assigned number from Stackoverflow
 user_number: '3470100'
 
+#Set your user name from Stackoverflow
 user_name: 'vairix'
 
-#Set the default number of feeds to retrieve (if no amount set by paameter)
+#Set the default number of feeds to retrieve (if no amount set by parameter)
 feeds_number: '10'
 
+#Set the display mode
+#extended: false
+
+#Set the theme to the Stackoverflow flair to show on top of the activities
 theme: 'default'

@@ -9,10 +9,17 @@
       <% @entries.each do |entry| %>
         <tr>
           <td id='enable-load-body-<%= entry.id %>' class='async-load load-prepped'>
-            <a class='load-body expander-arrow-small-hide'></a>
-            <b><%= link_to entry.title, entry.entry_id, target: '_blank', class: 'answer-hyperlink timeline-answers' %></b>
-            </br>
-            <span class='comments' style='display: none;'></span>
+            <% if(extended) -%>
+              <a class='load-body expander-arrow-small-hide hide-body expander-arrow-small-show'></a>
+              <b><%= link_to entry.title, entry.entry_id, target: '_blank', class: 'answer-hyperlink timeline-answers' %></b>
+              </br>
+              <span class='comments' style='display: block;'><%= entry.summary.html_safe unless (entry.summary.blank?) %></span>
+            <% else -%>
+              <a class='load-body expander-arrow-small-hide'></a>
+              <b><%= link_to entry.title, entry.entry_id, target: '_blank', class: 'answer-hyperlink timeline-answers' %></b>
+              </br>
+              <span class='comments' style='display: none;'></span>
+            <% end -%>
           </td>
         </tr>
       <% end %>

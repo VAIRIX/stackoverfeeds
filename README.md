@@ -1,6 +1,6 @@
-= Stackoverfeeds
+# Stackoverfeeds
 
-Stackoverfeeds is a full RoR gem that let you show your Stackoverflow activity in a fancy way with minimal configuration. It:
+Stackoverfeeds is a full RoR gem that let you show your personal stackoverflow activity in a fancy way with minimal configuration. It:
 
 * Is a full Rails engine
 * Can be added like a gem in your RoR application
@@ -8,29 +8,29 @@ Stackoverfeeds is a full RoR gem that let you show your Stackoverflow activity i
 * Offers you a predefined view (Stackoverflow like style) that displays your Stackoverflow activity
 * Based on feedshub (https://github.com/VAIRIX/feedshub)
 
-== Benefits
+## Benefits
 
 This solution fits very well for everyone who wants to give more visibility to their company or maybe themselves.
 
-== Installation
+## Installation
 
 You can add it to your Gemfile with:
 
-<code>
+```ruby
 gem 'stackoverfeeds'
-</code>
+```
 
 Then run the bundle command to install it
 
-<code>
+```bash
 bundle install
-</code>
+```
 
-After you install Stackoverfeeds, you need to run the generator
+After you install Feedshub, you need to run the generator
 
-<code>
+```bash
 rails generate stackoverfeeds:install
-</code>
+```
 
 The generator will copy:
 
@@ -42,14 +42,14 @@ Also, it will add environment variables in your application.rb file in order to 
 
 The last step is run the migrations
 
-<code>
+```bash
 rake db:migrate
-</code>
+```
 
-== Configuration
+## Configuration
 
-To customize the behaviour of the gem you have to edit <code>/config/stackoverfeeds/config.yml</code>
-
+To customize the behaviour of the gem you have to edit ```/config/stackoverfeeds/config.yml```
+```yaml
   #Set your user assigned number from Stackoverflow
   user_number: '3470100'
 
@@ -61,43 +61,43 @@ To customize the behaviour of the gem you have to edit <code>/config/stackoverfe
 
   #Set the theme to the Stackoverflow flair to show on top of the activities
   theme: 'default'
-
-And also edit <code>/config/stackoverfeeds/schedule.rb</code> to customize the period of feeds updates.
+```
+And also edit ```/config/stackoverfeeds/schedule.rb``` to customize the period of feeds updates.
 Feedshub use whenever Gem to schedule the updates of feeds. For more information visit <https://github.com/javan/whenever>
 
 
 To generate the schedule task, run:
 
-<code>
-RAILS_ENV=your_environment rake stackoverfeeds:schedule
-</code>
+```bash
+RAILS_ENV=your_environment rake feeds:schedule
+```
 
 You need to do this to keep updated feeds.
 
-== How to integrate it?
+## How to integrate it?
 
 The integration is done using a helper that will render the public activity wherever you want in the view.
 In order to do it you have to:
 
 Include the helper reference in the view controller
-<code>ruby helper Stackoverfeeds::StackoverfeedsHelper</code>
+```ruby helper Stackoverfeeds::StackoverfeedsHelper```
 
 In your view, call the helper as shown below
 
-<code>
+```html
 <%= stackoverflow_feeds %>
-</code>
+```
 
-By calling the helper without parameter, it will display the number of feeds specified in the configuration and with all activities collapsed. You can add two parameters (ie.:<code><%= stackoverflow_feeds(50, true) %></code>) to specify the number of feeds to show in the view, and the display mode (activities collapsed or expanded). In non extended mode, each activity summary is retrieve on demand.
+By calling the helper without parameter, it will display the number of feeds specified in the configuration and with all activities collapsed. You can add two parameters (ie.:```<%= stackoverflow_feeds(50, true) %>```) to specify the number of feeds to show in the view, and the display mode (activities collapsed or expanded). In non extended mode, each activity summary is retrieve on demand.
 
-== Screenshots
+## Screenshots
 
 This is the default style of Feedshub.
 
-http://vairix.com/assets/stackoverfeeds.png
+![Feeds](http://vairix.com/assets/stackoverfeeds.png)
 
 
-== License
+## License
 
 Copyright 2014 VAIRIX
 
