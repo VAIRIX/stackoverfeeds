@@ -53,6 +53,14 @@ module Stackoverfeeds
         end
       end
 
+      def add_routes
+        routes = 'config/routes.rb'
+        unless File.read(routes).match(/stackoverfeeds/)
+          routes_update = "\r\n\r\n  mount Stackoverfeeds::Engine => '\/stackoverfeeds'\n"
+          insert_into_file routes, routes_update, :after => "Application.routes.draw do"
+        end
+      end
+
       def copy_schedule
         copy_file 'schedule.rb', 'config/stackoverfeeds/schedule.rb'
       end

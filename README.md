@@ -69,7 +69,7 @@ Feedshub use whenever Gem to schedule the updates of feeds. For more information
 To generate the schedule task, run:
 
 ```bash
-RAILS_ENV=your_environment rake feeds:schedule
+RAILS_ENV=your_environment rake stackoverfeeds:schedule
 ```
 
 You need to do this to keep updated feeds.
@@ -80,7 +80,9 @@ The integration is done using a helper that will render the public activity wher
 In order to do it you have to:
 
 Include the helper reference in the view controller
-```ruby helper Stackoverfeeds::StackoverfeedsHelper```
+```ruby
+helper Stackoverfeeds::StackoverfeedsHelper
+```
 
 In your view, call the helper as shown below
 

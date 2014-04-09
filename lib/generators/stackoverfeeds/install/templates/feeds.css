@@ -455,7 +455,7 @@
 #stackoverflow_feeds #user-tab-questions .star-off {
     cursor: default;
 }
-#stackoverflow_feeds .expander-arrow-hide, .expander-arrow-show {
+#stackoverflow_feeds .expander-arrow-hide, #stackoverflow_feeds .expander-arrow-show {
     display: inline-block;
     width: 27px;
     height: 21px;
@@ -464,7 +464,7 @@
 #stackoverflow_feeds .expander-arrow-show {
     background-position: 5px -905px;
 }
-#stackoverflow_feeds .expander-arrow-small-hide, .expander-arrow-small-show {
+#stackoverflow_feeds .expander-arrow-small-hide, #stackoverflow_feeds .expander-arrow-small-show {
     display: inline-block;
     width: 15px;
     height: 16px;
@@ -498,12 +498,12 @@
     color: #000;
     padding: 4px 0 4px 0;
 }
-#stackoverflow_feeds #hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+#stackoverflow_feeds a, #stackoverflow_feeds .envelope-on, #stackoverflow_feeds .envelope-off, #stackoverflow_feeds .vote-up-off, #stackoverflow_feeds .vote-up-on, #stackoverflow_feeds .vote-down-off, #stackoverflow_feeds .vote-down-on, #stackoverflow_feeds .star-on, #stackoverflow_feeds .star-off, #stackoverflow_feeds .comment-up-off, #stackoverflow_feeds .comment-up-on, #stackoverflow_feeds .comment-flag, #stackoverflow_feeds .edited-yes, #stackoverflow_feeds .feed-icon, #stackoverflow_feeds .statsarrow, #stackoverflow_feeds .vote-accepted-off, #stackoverflow_feeds .vote-accepted-on, #stackoverflow_feeds .vote-accepted-bounty, #stackoverflow_feeds .badge-earned-check, #stackoverflow_feeds .delete-tag, #stackoverflow_feeds .grippie, #stackoverflow_feeds .expander-arrow-hide, #stackoverflow_feeds .expander-arrow-show, #stackoverflow_feeds .expander-arrow-small-hide, #stackoverflow_feeds .expander-arrow-small-show, #stackoverflow_feeds .anonymous-gravatar, #stackoverflow_feeds .badge1, #stackoverflow_feeds .badge2, #stackoverflow_feeds .badge3, #stackoverflow_feeds .add-interesting-tag-on, #stackoverflow_feeds .add-interesting-tag-off, #stackoverflow_feeds .fb-share, #stackoverflow_feeds .twitter-share, #stackoverflow_feeds .gp-share {
     background-image: url('../stackoverfeeds/sprites.png?v=f936a8b3d6ea');
     background-repeat: no-repeat;
     overflow: hidden;
 }
-#stackoverflow_feeds html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+#stackoverflow_feeds html, #stackoverflow_feeds body, #stackoverflow_feeds div, #stackoverflow_feeds span, #stackoverflow_feeds applet, #stackoverflow_feeds object, #stackoverflow_feeds iframe, #stackoverflow_feeds h1, #stackoverflow_feeds h2, #stackoverflow_feeds h3, #stackoverflow_feeds h4, #stackoverflow_feeds h5, #stackoverflow_feeds h6, #stackoverflow_feeds p, #stackoverflow_feeds blockquote, #stackoverflow_feeds pre, #stackoverflow_feeds a, #stackoverflow_feeds abbr, #stackoverflow_feeds acronym, #stackoverflow_feeds address, #stackoverflow_feeds big, #stackoverflow_feeds cite, #stackoverflow_feeds code, #stackoverflow_feeds del, #stackoverflow_feeds dfn, #stackoverflow_feeds em, #stackoverflow_feeds font, #stackoverflow_feeds img, #stackoverflow_feeds ins, #stackoverflow_feeds kbd, #stackoverflow_feeds q, #stackoverflow_feeds s, #stackoverflow_feeds samp, #stackoverflow_feeds small, #stackoverflow_feeds strike, #stackoverflow_feeds strong, #stackoverflow_feeds sub, #stackoverflow_feeds sup, #stackoverflow_feeds tt, #stackoverflow_feeds var, #stackoverflow_feeds b, #stackoverflow_feeds u, #stackoverflow_feeds i, #stackoverflow_feeds center, #stackoverflow_feeds dl, #stackoverflow_feeds dt, #stackoverflow_feeds dd, #stackoverflow_feeds ol, #stackoverflow_feeds ul, #stackoverflow_feeds li, #stackoverflow_feeds fieldset, #stackoverflow_feeds form, #stackoverflow_feeds label, #stackoverflow_feeds legend, #stackoverflow_feeds table, #stackoverflow_feeds caption, #stackoverflow_feeds tbody, #stackoverflow_feeds tfoot, #stackoverflow_feeds thead, #stackoverflow_feeds tr, #stackoverflow_feeds th, #stackoverflow_feeds td {
     margin: 0;
     padding: 0;
     border: 0;
@@ -514,13 +514,13 @@
 #stackoverflow_feeds body {
     line-height: 1;
 }
-#stackoverflow_feeds ol, ul {
+#stackoverflow_feeds ol, #stackoverflow_feeds ul {
     list-style: none;
 }
-#stackoverflow_feeds blockquote, q {
+#stackoverflow_feeds blockquote, #stackoverflow_feeds q {
     quotes: none;
 }
-#stackoverflow_feeds blockquote:before, blockquote:after, q:before, q:after {
+#stackoverflow_feeds blockquote:before, #stackoverflow_feeds blockquote:after, #stackoverflow_feeds q:before, #stackoverflow_feeds q:after {
     content: '';
     content: none;
 }
@@ -550,7 +550,7 @@
     border: 1px solid #999;
     font-size: 90%
 }
-#stackoverflow_feeds input, select, button, .button, a.button:link, a.button:visited {
+#stackoverflow_feeds input, #stackoverflow_feeds select, #stackoverflow_feeds button, #stackoverflow_feeds .button, #stackoverflow_feeds a.button:link, #stackoverflow_feeds a.button:visited {
     border: 1px solid #999;
     font-size: 100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -559,7 +559,7 @@
     margin: 5px 0 5px 0;
     padding: 3px;
 }
-#stackoverflow_feeds input[type="button"], input[type="submit"], .button, a.button:link, a.button:visited {
+#stackoverflow_feeds input[type="button"], #stackoverflow_feeds input[type="submit"], #stackoverflow_feeds .button, #stackoverflow_feeds a.button:link, #stackoverflow_feeds a.button:visited {
     padding: .3em .6em;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
     background-color: #333;
@@ -587,10 +587,10 @@
     padding: 10px 10px 1px 10px;
     background-color: #eee;
 }
-#stackoverflow_feeds b, strong {
+#stackoverflow_feeds b, #stackoverflow_feeds strong {
     font-weight: bold;
 }
-#stackoverflow_feeds i, em {
+#stackoverflow_feeds i, #stackoverflow_feeds em {
     font-style: italic;
 }
 #stackoverflow_feeds ul {
@@ -598,7 +598,7 @@
     margin-left: 30px;
     margin-bottom: 1em;
 }
-#stackoverflow_feeds ol ul, ul ol, ul ul, ol ol {
+#stackoverflow_feeds ol ul, #stackoverflow_feeds ul ol, #stackoverflow_feeds ul ul, #stackoverflow_feeds ol ol {
     margin-bottom: 0;
 }
 #stackoverflow_feeds p {
@@ -675,7 +675,7 @@
     line-height: 1.4;
     white-space: nowrap;
 }
-#stackoverflow_feeds input[type=checkbox], input[type=radio] {
+#stackoverflow_feeds input[type=checkbox], #stackoverflow_feeds input[type=radio] {
     border: none;
 }
 #stackoverflow_feeds p code {
@@ -727,11 +727,11 @@
 #stackoverflow_feeds .comment img {
     vertical-align: middle;
 }
-#stackoverflow_feeds .comment-flag, .comment-up, .comment-delete {
+#stackoverflow_feeds .comment-flag, #stackoverflow_feeds .comment-up, #stackoverflow_feeds .comment-delete {
     visibility: hidden;
     cursor: pointer;
 }
-#stackoverflow_feeds .comment:hover .comment-flag, .comment:hover .comment-up, .comment:hover .comment-delete, .comment:hover .comment-edit-hide, .comment-up-on {
+#stackoverflow_feeds .comment:hover .comment-flag, #stackoverflow_feeds .comment:hover .comment-up, #stackoverflow_feeds .comment:hover .comment-delete, #stackoverflow_feeds .comment:hover .comment-edit-hide, #stackoverflow_feeds .comment-up-on {
     visibility: visible;
 }
 #stackoverflow_feeds .comment-actions {
@@ -744,7 +744,7 @@
     font-weight: bold;
     padding-right: 2px;
 }
-#stackoverflow_feeds .comment-text, .comment-form {
+#stackoverflow_feeds .comment-text, #stackoverflow_feeds .comment-form {
     vertical-align: text-top;
     padding: 0 6px 0 7px;
 }
@@ -781,7 +781,7 @@
     display: block;
     cursor: pointer;
 }
-#stackoverflow_feeds .comment-form .edit-comment-cancel, .comment-form .comment-help-link {
+#stackoverflow_feeds .comment-form .edit-comment-cancel, #stackoverflow_feeds .comment-form .comment-help-link {
     margin-left: 10px;
 }
 #stackoverflow_feeds .comment-form>form textarea {
