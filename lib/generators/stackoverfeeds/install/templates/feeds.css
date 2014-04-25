@@ -499,7 +499,7 @@
     padding: 4px 0 4px 0;
 }
 #stackoverflow_feeds a, #stackoverflow_feeds .envelope-on, #stackoverflow_feeds .envelope-off, #stackoverflow_feeds .vote-up-off, #stackoverflow_feeds .vote-up-on, #stackoverflow_feeds .vote-down-off, #stackoverflow_feeds .vote-down-on, #stackoverflow_feeds .star-on, #stackoverflow_feeds .star-off, #stackoverflow_feeds .comment-up-off, #stackoverflow_feeds .comment-up-on, #stackoverflow_feeds .comment-flag, #stackoverflow_feeds .edited-yes, #stackoverflow_feeds .feed-icon, #stackoverflow_feeds .statsarrow, #stackoverflow_feeds .vote-accepted-off, #stackoverflow_feeds .vote-accepted-on, #stackoverflow_feeds .vote-accepted-bounty, #stackoverflow_feeds .badge-earned-check, #stackoverflow_feeds .delete-tag, #stackoverflow_feeds .grippie, #stackoverflow_feeds .expander-arrow-hide, #stackoverflow_feeds .expander-arrow-show, #stackoverflow_feeds .expander-arrow-small-hide, #stackoverflow_feeds .expander-arrow-small-show, #stackoverflow_feeds .anonymous-gravatar, #stackoverflow_feeds .badge1, #stackoverflow_feeds .badge2, #stackoverflow_feeds .badge3, #stackoverflow_feeds .add-interesting-tag-on, #stackoverflow_feeds .add-interesting-tag-off, #stackoverflow_feeds .fb-share, #stackoverflow_feeds .twitter-share, #stackoverflow_feeds .gp-share {
-    background-image: url('../stackoverfeeds/sprites.png?v=f936a8b3d6ea');
+    background-image: url('/assets/stackoverfeeds/sprites.png?v=f936a8b3d6ea');
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -575,8 +575,8 @@
     background-color: #eee;
     overflow: auto;
     width: auto;
-    width: 650px !ie7;
-    padding-bottom: 20px !ie7;
+    width: 650px;
+    padding-bottom: 20px;
     max-height: 600px;
 }
 #stackoverflow_feeds pre {
