@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Stackoverfeeds::VERSION
   s.authors     = 'VAIRIX'
   s.email       = 'info@vairix.com'
-  s.homepage    = 'https://github.com/VAIRIX/feedshub'
+  s.homepage    = 'https://github.com/VAIRIX/stackoverfeeds'
   s.summary     = 'Created to easily integrate Stackoverflow public feeds in your app'
   s.description = 'stackoverfeeds is a full RoR gem that let you show your Stackoverflow activity in a fancy way with minimal configuration.'
   s.license     = 'MIT'
